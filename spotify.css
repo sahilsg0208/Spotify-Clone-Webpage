@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;                       
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 64px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    align-items: center;
+    padding-left: 9px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 24px auto;
+    border-radius: 1rem;
+    background-image: url(bkc4.jpg);
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height:73px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+} 
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songItem{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+
+    /* margin: 2rem 2rem; */
+    border-radius: 1rem;
+
+}
+
+.songItem img{
+    ba
+    width: 50px;
+
+}
+
+.boxes{
+    /* display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 3rem; */
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="container  flex  ">
+        <div class="Left ">
+            <div class="home  bg-grey  rounded  p-1 ">
+                <div class="logo invert" ><img src="logo.svg" alt=""> <p>Spotify</p></div>
+                <ul>
+                    <li class="invert"  > <img  class="invert" src="home.svg"> Home</li>
+                    <li class="invert"  style="color: #b3b3b3; "> <img class="invert"  src="search.svg ">Search</li>
+                    
+                </ul>
+            </div>
+            <div class="library  bg-grey  rounded  p-1 "> 
+                <div class="heading ">
+                    <li class="invert"> <img src="playlist.svg"></li>
+                    <h2 class="light"> Your library</h2>
+                </div> 
+                <div class="footer">
+                    <div> <a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span> </a> </div>
+                    <div> <a href="https://www.spotify.com/in-en/safetyandprivacy/"> <span>Safety &amp; Privacy Center</span> </a> </div>
+                    <div> <a href="https://www.spotify.com/in-en/legal/privacy-policy/"> <span>Privacy Policy</span> </a></div>
+                    <div> <a href="https://www.spotify.com/in-en/legal/cookies-policy/"> <span>Cookies</span> </a> </div>
+                    <div> <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"> <span>About Ads</span> </a> </div>
+                    <div> <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span> </a> </div>
+                    <div> <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"> <span>Cookies</span> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Right bg-grey  rounded  p-1">
+            <div class="header ">
+                <div class="nav">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i> 
+                </div>
+                <div class="button">
+                    <button class="signinBtn">Sign up</button>
+                    <button class="loginBtn">Log in</button>
+                </div>
+
+            </div>
+            <div class="spotifyPlayList">
+                <h1>Spotify PLaylist</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play solid-black-icon"></i> 
+                        </div>
+                        <img src="/images/list1.jpg">
+                        <h1> Happy Hits!</h1>
+                        <p>Hits to boost your mood & fill you with happiness! </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play solid-black-icon"></i> 
+                        </div>
+                        <img src="/images/list1.jpg">
+                        <h1> Happy Hits!</h1>
+                        <p>Hits to boost your mood & fill you with happiness! </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play solid-black-icon"></i> 
+                        </div>
+                        <img src="/images/list1.jpg">
+                        <h1> Happy Hits!</h1>
+                        <p>Hits to boost your mood & fill you with happiness! </p>
+                    </div>
+                </div>
+            </div>
+            <div class="playBar ">
+                <div class="songInfo"></div>
+                <div class="songBtn">
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="songTime"></div>
+
+            </div>
+        </div>
+    
+</div>
+        
+    <script src="music.js"></script>
+</body>
+</html>
